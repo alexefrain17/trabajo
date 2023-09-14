@@ -39,3 +39,17 @@ insert into Permisos values('Create')
 insert into Permisos values('Read')
 insert into Permisos values('Update')
 insert into Permisos values('Delete')
+
+select * from Permisos
+
+select * from Roles_Permisos
+
+insert into Roles_Permisos values(1,1,1)
+insert into Roles_Permisos values(1,2,1)
+insert into Roles_Permisos values(1,3,1)
+insert into Roles_Permisos values(1,4,1)
+
+insert into Roles_Permisos values(2,1,0)
+insert into Roles_Permisos values(2,2,1)
+insert into Roles_Permisos values(2,3,0)
+insert into Roles_Permisos values(2,4,0)
