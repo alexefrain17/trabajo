@@ -17,3 +17,15 @@ Create table Permisos(
 Id_Permiso int identity(1,1),
 Nombr_Permiso varchar(50)
 )
+
+create table Roles(
+Id_Rol int identity(1,1),
+Nombre_Rol varchar(50)
+)
+
+Create table Roles_Permisos(
+Id_rol_permiso int identity(1,1),
+Id_Rol int,
+Id_Permiso int,
+Estado bit
+)
