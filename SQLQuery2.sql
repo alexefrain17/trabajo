@@ -29,3 +29,7 @@ Id_Rol int,
 Id_Permiso int,
 Estado bit
 )
+
+insert into Roles values('Admin')
+insert into Roles values('User')
+
