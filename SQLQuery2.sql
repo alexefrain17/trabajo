@@ -8,3 +8,12 @@ Edad int,
 Usuario varchar(50),
 Clave varchar(50)
 )
+
+Alter table Usuarios add id_rol int
+
+select * from Usuarios
+
+Create table Permisos(
+Id_Permiso int identity(1,1),
+Nombr_Permiso varchar(50)
+)
