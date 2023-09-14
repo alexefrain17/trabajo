@@ -33,3 +33,9 @@ Estado bit
 insert into Roles values('Admin')
 insert into Roles values('User')
 
+select * from Roles
+
+insert into Permisos values('Create')
+insert into Permisos values('Read')
+insert into Permisos values('Update')
+insert into Permisos values('Delete')
